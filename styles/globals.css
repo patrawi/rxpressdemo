@@ -14,3 +14,39 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.navbar {
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links {
+  margin : 20px 10px;
+}
+
+.header {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.footer {
+  position : fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding : 10px;
+}
+
+
+.about-content {
+  display : flex;
+  align-items: center;
+  justify-content: space-between;
+}
